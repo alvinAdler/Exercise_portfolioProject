@@ -1,0 +1,126 @@
+html {
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Mallanna', sans-serif;
+}
+
+p {
+    font-family: 'Mallanna', sans-serif;
+}
+
+.textAlignCenter{
+    text-align: center;
+}
+
+.textDecorationNone{
+    text-decoration: none;
+}
+
+.barText {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.activeBar {
+    transition: 300ms ease-in-out;
+    background-color: #2e2d2c;
+    border-radius: 5px;
+}
+
+.navbarItems {
+    color: #2e2d2c;
+    transition: 300ms ease-in-out;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    display: block;
+    padding: .5rem 1rem
+}
+
+.navbarItems:hover {
+    background-color: #2e2d2c;
+    transition: 300ms ease-in-out;
+    border-radius: 5px;
+    color: #faf9f5;
+    text-decoration: none;
+}
+
+.aboutNamecard {
+    font-family: 'Mallanna', sans-serif;
+    margin: 30px 0 30px 0;
+}
+
+.occPicture {
+    width: 35em;
+    height: 20em;
+    margin: auto;
+}
+
+.pictProlangFrame{
+    /*margin-top: -8%;*/
+    background: none;
+    border: none;
+}
+
+.fontProlangFrame{
+    font-weight: bold;
+}
+
+.boxProlang{
+    text-align: center;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+.boxProlang:hover{
+    transition: 0.1s ease-in-out;
+    background-color: #fffcfc;
+    border-radius: 10px;
+}
+
+.footer{
+    margin-top: 50px;
+    background-image: url("images/alternativeBg.jpg");
+}
+
+.footerElement{
+    display: block;
+}
+
+.footerIcons{
+    height: 3em;
+    width: 3em;
+    border: none;
+    background: none;
+}
+
+.footerLink{
+    color: #2e2d2c;
+}
+
+.innerBox{
+    background-color: #1a1515;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(50% 50%, 100% 0, 49% 49%, 0 100%);   
+}
+
+.imageClip{
+    width: 15em;
+    height: 15em;
+}
+
+.fillerBox{
+    border: none;
+}
+
+.projectElement{
+    border-radius: 20px;
+    background-color: #edebeb;
+    margin: 50px 0 0 0;
+}
+
+#profileContent {
+    padding-right: -30px;
+}

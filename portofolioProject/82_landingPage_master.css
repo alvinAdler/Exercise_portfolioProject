@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animate 16s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+}
+
+@keyframes animate{
+    0%, 100%{
+        background-image: url(images/background1.jpg);
+    }
+    25%{
+        background-image: url(images/background2.jpg);
+    }
+    50%{
+        background-image: url(images/background5.jpg);
+    }
+    75%{
+        background-image: url(images/background4.jpg);
+    }
+}
+
+h1{
+    font-family: 'Mallanna', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.LPContent{
+    background-color: rgba(224, 222, 218, 0.5);
+    padding: 6em 6em 0 6em;
+    border-radius: 30px;
+    color: #2e2d2c;
+}
+
+.container-fluid{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.mainButton{
+    padding: 10px 25px;
+    color: #2e2d2c;
+    border: none;
+    font-family: 'Mallanna', sans-serif;
+    font-size: 17px;
+    transition: 300ms ease-in-out;
+    border-radius: 5px;
+}
+
+.mainButton:hover{
+    transition: 300ms ease-in-out;
+    background-color: #2e2d2c;
+    color: #faf9f5;
+}
